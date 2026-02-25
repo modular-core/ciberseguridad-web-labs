@@ -1,53 +1,61 @@
-# Ciberseguridad en Aplicaciones Web – Laboratorio
+# Web Application Security – Laboratory
 
-Repositorio oficial del laboratorio práctico que acompaña el libro **"Ciberseguridad en Aplicaciones Web"**.
+Official repository of the practical laboratory accompanying the book **"Web Application Security"**.
 
-Este proyecto implementa un entorno educativo desarrollado en **PHP + MySQL**, diseñado para comprender vulnerabilidades comunes en aplicaciones web desde un enfoque defensivo.
+This project provides an educational environment built with **PHP + MySQL**, designed to help understand common web application vulnerabilities from a defensive perspective.
 
 ---
 
-## ⚙ Requisitos
+## ⚙ Requirements
 
-- PHP 7.x o superior
+- PHP 7.x or higher
 - MySQL / MariaDB
-- Servidor local (XAMPP, MAMP, WAMP o similar)
+- Local server environment (XAMPP, MAMP, WAMP, or similar)
 
 ---
 
-## 🚀 Instalación
+## 🚀 Installation
 
-1. Clonar o descargar el repositorio.
-2. Copiar la carpeta `cybersecurity` dentro del directorio raíz del servidor local.
-3. Crear una base de datos en MySQL con el nombre:
+1. Clone or download the repository.
+2. Copy the `cybersecurity` folder into the root directory of your local server.
+3. Create a MySQL database named:
+
    `security_db`
-   
-   Puede acceder a phpMyAdmin desde:
+
+   You may access phpMyAdmin at:
    http://localhost/phpmyadmin/
-   
-   o utilizar la línea de comandos:
+
+   Or use the command line:
+
    `CREATE DATABASE security_db;`
-5. Importar el archivo:
+
+4. Import the file:
 
    `cybersecurity/security_db.sql`
 
-   en la base de datos creada.
-6. Acceder desde el navegador: http://localhost/cybersecurity/login.php
+   into the created database.
+
+5. Access the application from your browser:
+
+   http://localhost/cybersecurity/login.php
 
 ---
 
-## ⚠ Aviso Importante
+## ⚠ Important Notice
 
-Este laboratorio tiene fines exclusivamente educativos.  
-Las implementaciones vulnerables incluidas forman parte del proceso de aprendizaje y análisis defensivo.
+This laboratory is intended strictly for educational purposes.
+The vulnerable implementations included are part of the learning and defensive analysis process.
 
-No utilizar en entornos productivos.
+Do not use in production environments.
 
 ---
 
-## 📚 Relación con el Libro
+## 📚 Relation to the Book
 
-Este repositorio acompaña los ejercicios prácticos descritos en el libro, permitiendo al lector replicar escenarios y comprender las vulnerabilidades desde una perspectiva técnica y responsable.
+This repository accompanies the practical exercises described in the book, allowing readers to replicate scenarios and understand vulnerabilities from a technical and responsible perspective.
 
-## 🔒 Nota sobre Seguridad
+---
 
-Las credenciales incluidas en este proyecto son exclusivamente demostrativas y no corresponden a entornos reales.
+## 🔒 Security Note
+
+The credentials included in this project are strictly demonstrative and do not correspond to real environments.
