@@ -19,13 +19,13 @@ Este proyecto implementa un entorno educativo desarrollado en **PHP + MySQL**, d
 1. Clonar o descargar el repositorio.
 2. Copiar la carpeta `cybersecurity` dentro del directorio raíz del servidor local.
 3. Crear una base de datos en MySQL con el nombre:
-   security_db
+   `security_db`
    
    Puede acceder a phpMyAdmin desde:
    http://localhost/phpmyadmin/
    
    o utilizar la línea de comandos:
-   CREATE DATABASE security_db;
+   `CREATE DATABASE security_db;`
 5. Importar el archivo:
 
    cybersecurity/security_db.sql
