@@ -31,7 +31,7 @@ Este proyecto implementa un entorno educativo desarrollado en **PHP + MySQL**, d
    cybersecurity/security_db.sql
 
    en la base de datos creada.
-6. Acceder desde el navegador: "http://localhost/cybersecurity/login.php"
+6. Acceder desde el navegador: http://localhost/cybersecurity/login.php
 
 ---
 
