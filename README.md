@@ -18,8 +18,10 @@ Este proyecto implementa un entorno educativo desarrollado en **PHP + MySQL**, d
 
 1. Clonar o descargar el repositorio.
 2. Copiar la carpeta `cybersecurity` dentro del directorio raíz del servidor local.
-3. Crear la base de datos usando el archivo: "cybersecurity/security_db.sql"
-4. Acceder desde el navegador: "http://localhost/cybersecurity/login.php"
+3. Crear la base de datos importando el archivo:
+   "cybersecurity/security_db.sql"
+   en MySQL.
+5. Acceder desde el navegador: "http://localhost/cybersecurity/login.php"
 
 ---
 
@@ -35,3 +37,7 @@ No utilizar en entornos productivos.
 ## 📚 Relación con el Libro
 
 Este repositorio acompaña los ejercicios prácticos descritos en el libro, permitiendo al lector replicar escenarios y comprender las vulnerabilidades desde una perspectiva técnica y responsable.
+
+## 🔒 Nota sobre Seguridad
+
+Las credenciales incluidas en este proyecto son exclusivamente demostrativas y no corresponden a entornos reales.
